@@ -1,0 +1,91 @@
+body{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: medium;
+}
+.order-contact-button{
+    background-image: linear-gradient(yellow, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 200px;
+}
+.colour-word{
+    color: tomato;
+}
+.order-section{
+    display: flex;
+}
+.order-contact-part{
+   width: 50%;
+   padding-left: 5%;
+   padding-top: 5%;
+}
+.order-contact-part img{
+    width: 80%;
+}
+.contact-section{
+   display: flex;
+   padding: 10%;
+    background-image:url(images/7.png);
+    background-repeat: none;
+}
+.recipe-intro{
+    text-align: center;
+    padding: 15px
+}
+.recipe-section{
+    display: flex;
+    justify-content: space-between;  
+    padding-left:200px;
+    padding-right:200px;
+}
+.recipe-item{
+    text-align:center;
+    width: 30%;
+    height: 50%;
+    box-shadow:0 0 20px grey;
+    border-radius: 20px;
+}
+.recipe-item img{
+    margin-top: 20px;
+    width: 80%
+}
+.recipe-item p{
+    width: 80%;
+    margin-left: 30px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    box-shadow:0 0 20px grey;
+    border-radius: 20px;
+    margin: 100px;
+    padding:30px 150px;
+}
+.achievement{
+    text-align:center;
+    background-image: linear-gradient(rgb(244, 245, 240), 
+    rgb(231, 110, 110));
+    padding: 50px;
+    margin: 100px;
+    border-radius: 50px;
+    box-shadow:0 0 20px rgb(187, 132, 170);
+}
+.achievement img{
+    height: 30%;
+    width: 30%;
+    border-radius: 50px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+}
+h4{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.ending{
+    color: rgb(149, 139, 175);
+    padding-bottom: 100px;
+}
